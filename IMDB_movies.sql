@@ -45,7 +45,7 @@
      limit 1;
      
 # k) Which movie(s) were directed by Brenda Chapman?
-     select m.title, d.name as diretor_name
+     select m.title, d.name as director_name
      from movies m
      join directors d on m.director_id = d.id
      where d.name = 'Brenda Chapman';
