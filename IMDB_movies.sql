@@ -10,7 +10,7 @@
         
 # d) Find these 3 directors: James Cameron ; Luc Besson ; John Woo
         select * from directors
-        where name in ("James Cameron", "Luc Besson ", "John Woo");
+        where name in ("James Cameron", "Luc Besson", "John Woo");
         
 # e) Find all directors with name starting with S.
         select * from directors
