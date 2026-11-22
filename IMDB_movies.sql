@@ -1,3 +1,5 @@
+USE project_movie_database;
+
 # a) Can you get all data about movies? 
 		select * from movies;
         
@@ -69,7 +71,7 @@
     USE project_movie_database;
     
     
-# Merge the movies and directors tables into one new table
+# Merge the movies and directors tables
 SELECT
     d.id,
     d.name,
