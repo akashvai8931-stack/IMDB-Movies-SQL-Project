@@ -40,7 +40,7 @@
 # j) What is the most awarded average vote since the January 1st, 2000?
      select title, vote_average, release_date 
      from movies
-     where release_date >= '2001-01-01'
+     where release_date >= '2000-01-01'
      order by vote_average desc
      limit 1;
      
