@@ -67,10 +67,7 @@ USE project_movie_database;
     GROUP BY d.name
     ORDER BY total_profit DESC
     LIMIT 1; 
-    
-    USE project_movie_database;
-    
-    
+        
 # Merge the movies and directors tables
 SELECT
     d.id,
