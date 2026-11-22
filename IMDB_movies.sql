@@ -70,7 +70,6 @@
     
     
 # Merge the movies and directors tables into one new table
-USE project_movie_database;
 SELECT
     d.id,
     d.name,
